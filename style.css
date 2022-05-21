@@ -1,0 +1,108 @@
+body{
+  background: darkgrey;
+  color: rgb(0, 100, 0);
+  font-family: Arial,serif;
+  font-size: 20px;
+  text-align:center;
+}
+h1{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Montserat,serif;
+  font size:45px;
+  font-weight: bolder;
+  text-align:Center;
+}
+#logo{
+  width: 300px;
+}
+#BDJ{
+  width: 100px;
+}
+#bhd{
+  width: 100px;
+}
+h2{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: Times,serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+}
+h3{
+  background: white;
+  color: Blue;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: royalblue;
+  align-content:center;
+}
+a:hover{
+  color: purple;
+}
+p{
+  text-align:center;
+  color: black;
+  font-family: inherit,serif;
+}
+img{
+  align-content: center;
+  border-radius: 20%;
+  size: 20px;
+}
+li{
+  color: black;
+  text-align: justify;
+}
+div{
+  border-top:3px grey ;
+  border-left: 3px blueviolet;
+  border-right: 3px black;
+  border-bottom: 3px yellow;
+  box-shadow: 6px 6px 9px grey;
+}
+
+.container {
+  width: 700px;
+  margin:40px auto ;
+}
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+.btn-blue{
+  background: black;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-blue:hover{
+  background-color: purple;
+  color: white;
+}
+.list-inline{
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  text-align:auto;
+}
+.list-inline li {
+  padding: 10px;
+  display: inline;
+}
+
+@media (max-width:  760px) {
+ .container {
+  width: 650px;
+ }
+}
+@media (max-width: 500px)
+ .container{
+  width: 400px
+ }
